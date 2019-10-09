@@ -813,4 +813,4 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDYQsy5HQpBYQ3JWsAbGoWOU2kJBZDkUReJPPL0mCXo
 [[0;32m  OK  [0m] Stopped Monitoring of LVM2 mirrors,…sing dmeventd or progress polling.
          Stopping LVM2 metadata daemon...
 [[0;32m  OK  [0m] Stopped LVM2 metadata daemon.
-[  798.113151] reboot: Power down
+[  798.113151] reboot: Power down 
