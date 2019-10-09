@@ -3,7 +3,7 @@ VAGRANT_API_VERSION  = "2"
 Vagrant.configure(VAGRANT_API_VERSION) do |config|
 
         config.vm.box = "ubuntu/bionic64"
-        config.vm.hostname = "centos.local"
+        config.vm.hostname = "ubuntu.local"
         config.vm.network "public_network"
         
 		config.vm.provider "virtualbox" do |vb|

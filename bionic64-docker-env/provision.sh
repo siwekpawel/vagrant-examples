@@ -2,6 +2,7 @@
 
 echo -n "Updating and upgrading the package list"
 apt-get update -y 
+apt-get upgrade -y
 
 echo -n "Installing Docker"
 curl -fsSL https://get.docker.com/ | sh
