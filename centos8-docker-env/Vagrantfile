@@ -1,0 +1,19 @@
+VAGRANT_API_VERSION  = "2"
+
+Vagrant.configure(VAGRANT_API_VERSION) do |config|
+
+        config.vm.box = "centos/8"
+        config.vm.box_version = "1905.1"
+        config.vm.hostname = "centos.local"
+        config.vm.network "public_network"
+        
+		config.vm.provider "virtualbox" do |vb|
+                vb.name = "Docker machine on Centos 8"
+                vb.cpus = 2
+                vb.memory = 4096
+		end
+			
+        config.vm.provision "shell", path:"provision.sh"		
+
+end
+
